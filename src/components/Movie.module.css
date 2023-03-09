@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    background-color: gainsboro;
+    width: 700px;
+    height: 345px;
+    border-radius: 15px;
+    margin: 15px 15px 15px 15px;
+    overflow: hidden;
+}
+.container:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.img{
+    object-fit:cover;
+}
+.title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    margin:'3px 0px 8px 0px'
+}
+.small_title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.info{
+    margin: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
